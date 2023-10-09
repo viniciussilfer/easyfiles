@@ -1,0 +1,286 @@
+<html><head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/cores.css"> 
+    <title>EasyFiles</title> 
+   </head> 
+   <body style="min-width: 372px;" class="bg-primary"> <!-- Barra de navegação --> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger border-botton shadow-sm  mb-3"> 
+     <div class="container"> <a class="navbar-brand text-white" href=""><strong>EasyFiles</strong></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"> <span class="navbar-toggler-icon"></span> </button> 
+      <div class="navbar-collapse collapse"> 
+       <ul class="navbar-nav flex-grow-1"> 
+        <li navbar-item="" class=""> <a href="index.html" class="nav-link text-white">Inicio</a></li> 
+        <li navbar-item=""> <a href="index.html" class="nav-link text-white">Softwares</a> </li> 
+       </ul> 
+       <div class="align-self-end"> 
+        <ul class="navbar-nav"> 
+         <li class="navbar-item"> <a href="" class="nav-link text-white">Registre-se</a> </li> 
+         <li class="navbar-item"> <a href="" class="nav-link text-white">Administrador</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </nav> 
+    <header class="container"> 
+     <div id="carouselMain" class="carousel carousel-dark slide" data-ride="carousel"> <!--  <ol class="carousel-indicators">
+          <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselMain" data-slide-to="1" class="active"></li>
+          </ol> --> 
+      <div class="carousel-inner"> 
+       <div class="carousel-item active text-center" data-interval="5000"> 
+        <img src="/imgs/slides/banner-valpix-1.png" alt="" class="img-fluid d-none d-md-block"> 
+        <img src="/imgs/slides/banner-valpix-mini.png" alt="" class="img-fluid d-block d-md-none"> 
+       </div> 
+       <div class="carousel-item text-center" data-interval="5000"> 
+        <img src="/imgs/slides/BANNER-APP.png" alt="" class="img-fluid d-none d-md-block"> 
+        <img src="/imgs/slides/banner-valpix-mini.png" alt="" class="img-fluid d-block d-md-none"> 
+       </div> 
+      </div> 
+     </div> 
+    </header> 
+    <main> 
+     <div class="container"> <!-- Pesquisa e Paginação --> 
+      <div class="row"> 
+       <div class="col-12 col-md-5"> 
+        <form class="justify-content-center justify-content-md-start mb-3 mb-md-0"> 
+         <div class="input-group input-grup-sm"> 
+          <input type="text" class="form-control" placeholder="Pesquisar"> <button class="btn btn-danger text-white border-0">Buscar</button> 
+         </div> 
+        </form> 
+       </div> 
+       <div class="col-12 col-md-7"> 
+        <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start"> 
+         <form class="ml-3 d-inline-block"> <select class="form-select form-select-sm"> <option>Ordenar por nome</option> <option>Ordenar por downloads</option> </select> 
+         </form> 
+         <nav class="d-inline-block"> 
+          <ul class="pagination pagination-sm my-0"> 
+           <li class="page-iten"><button class="page-link">1</button></li> 
+           <li class="page-iten"><button class="page-link">2</button></li> 
+           <li class="page-iten"><button class="page-link">3</button></li> 
+           <li class="page-iten"><button class="page-link">4</button></li> 
+           <li class="page-iten"><button class="page-link">5</button></li> 
+          </ul> 
+         </nav> 
+        </div> 
+       </div> 
+      </div> <!-- end --> 
+      <hr class="mt-3 bg-dark"> <!-- Intens --> 
+      <div class="row"> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn.icon-icons.com/icons2/112/PNG/512/winrar_18890.png" alt=""> 
+         <div class="card-header">
+          WinRar
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para compactar e descompactar arquivos</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <a class="my-8" href="https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-624br.exe">x64 bit</a>
+           <br> <a class="my-8" href="https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x32-624br.exe">x32 bit</a> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn.icon-icons.com/icons2/2248/PNG/512/steam_icon_135152.png" alt=""> 
+         <div class="card-header">
+          Steam
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Maior plataforma de jogos para computador. </p>
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <a href="https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe">Baixar</a> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn.icon-icons.com/icons2/2552/PNG/512/opera_gx_browser_logo_icon_152976.png" alt=""> 
+         <div class="card-header">
+          Opera GX
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Navegador Gamer focado na otimização do computador.</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <a href="https://net.geo.opera.com/opera_gx/stable/windows?utm_tryagain=yes&amp;utm_source=google&amp;utm_medium=pa&amp;utm_campaign=OGX_BR_Search_PT_T1_Brand_V2&amp;utm_content=635474770524&amp;utm_id=EAIaIQobChMIspPeyo_pgQMVPxOtBh2XiguAEAAYASAAEgJeJ_D_BwE&amp;http_referrer=https%3A%2F%2Fwww.opera.com%2Fpt%2Fgx%2Fgx-browser-nb%3Futm_id%3DEAIaIQobChMIspPeyo_pgQMVPxOtBh2XiguAEAAYASAAEgJeJ_D_BwE%26utm_medium%3Dpa%26utm_source%3Dgoogle%26utm_campaign%3DOGX_BR_Search_PT_T1_Brand_V2%26utm_content%3D635474770524%26gad%3D1%26gclid%3DEAIaIQobChMIspPeyo_pgQMVPxOtBh2XiguAEAAYASAAEgJeJ_D_BwE&amp;utm_site=opera_com&amp;&amp;utm_lastpage=opera.com/gx/gx-browser-nb">Baixar</a> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://gamessafari.com.br/cdn/shop/files/13095542946006_800x.jpg?v=1686831798" alt=""> 
+         <div class="card-header">
+          Driver Booster
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para verificar drivers que estejam faltando ou desatualizados.</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <a href="https://www.iobit.com/downloadcenter.php?product=pt-driver-booster-free-new'">Baixar</a> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt=""> 
+         <div class="card-header">
+          Spotify
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para ouvir e baixar suas músicas preferidas</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <button class="btn btn-danger border-0"> Baixar </button> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202066connectlogosocialteamviewer-115622_115679.png" alt=""> 
+         <div class="card-header">
+          Team Viewer
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para acesso remoto de computadores.</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <button class="btn btn-danger border-0"> Baixar </button> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn6.aptoide.com/imgs/8/6/a/86ac6b050509935243744b9ba5edbc14_fgraphic.png" alt=""> 
+         <div class="card-header">
+          AnyDesk
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para acesso remoto de computadores.</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <button class="btn btn-danger border-0"> Baixar </button> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/873/873133.png" alt=""> 
+         <div class="card-header">
+          Mega
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para armazenamento de dados em nuvem</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <button class="btn btn-danger border-0"> Baixar </button> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/3670/3670194.png" alt=""> 
+         <div class="card-header">
+          Dropbox
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para armazenamento de dados em nuvem</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <button class="btn btn-danger border-0"> Baixar </button> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn.icon-icons.com/icons2/167/PNG/512/7zip_23161.png" alt=""> 
+         <div class="card-header">
+          7-Zip
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para compactar e descompactar arquivos</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <button class="btn btn-danger border-0"> Baixar </button> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/libreofficecalc_94853.png" alt=""> 
+         <div class="card-header">
+          LibreOffice
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para escrita e edição de textos.</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <button class="btn btn-danger border-0"> Baixar </button> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://cdn-icons-png.flaticon.com/512/5968/5968452.png" alt=""> 
+         <div class="card-header">
+          Photoshop Express
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para compactar e descompactar arquivos</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <button class="btn btn-danger border-0"> Baixar </button> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-itens-stretch pb-4"> 
+        <div class="card text-center bg-light"> 
+         <img class="card-img-top" src="https://pt.wizcase.com/wp-content/uploads/2022/02/en-rufus-logo.jpg" alt=""> 
+         <div class="card-header">
+          Rufus
+         </div> 
+         <div class="card-body"> 
+          <p class="card-text">Software para criar pendrives e outras midias bootaveis para instalações de sistemas operacionais</p> 
+         </div> 
+         <div class="card-footer"> 
+          <form class="d-block"> <a href="https://github.com/pbatard/rufus/releases/download/v4.2/rufus-4.2p.exe">x64 bit portable</a> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <hr class="mt-3 bg-dark"> 
+     </div> 
+    </main> <!-- Rodapé --> 
+    <footer class="fixed-bottom text-muted bg-light"> 
+     <div class="container"> 
+      <div class="row py-3"> 
+       <div class="col-12 col-md-4 text-center text-md-center text-white"> 
+       </div> 
+       <div class="col-12 col-md-4 text-center text-md-center text-white">
+         © 2023 - EasyFiles 
+       </div> 
+       <div class="col-12 col-md-4 text-center text-md-right text-white"> <a href="#" class="text-decoration-none text-white"></a> 
+       </div> 
+      </div> 
+     </div> 
+    </footer> <!--Java Script--> 
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script> 
+   
+  </body></html>
